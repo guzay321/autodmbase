@@ -18,9 +18,9 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "cuy" in message or "euy" in message:
-                        message = message.replace("cuy", "cuy")
-                        message = message.replace("euy", "euy")
+                    if "punten" in message or "Punten" in message:
+                        message = message.replace("punten", "punten")
+                        message = message.replace("Punten", "Punten")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
